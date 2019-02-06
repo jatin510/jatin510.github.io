@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14pt;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+p {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 40px;
+}
+
+nav {
+  top: 0px;
+
+  position: fixed;
+}
+
+nav ul li {
+  display: inline;
+  padding: 23px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+nav ul {
+  background-color: black;
+  display: block;
+  padding: 21px;
+  padding-left: 600px;
+  width: 100%;
+}
+
+nav ul li:hover {
+  background-color: rgb(87, 83, 83);
+}
+
+nav {
+  position: sticky;
+}
+
+#front {
+  height: 400px;
+  background-color: #666;
+  color: #ffffff;
+}
+
+/* 
+#front:nth-child(n) {
+  padding-top: 80px;
+  padding-left: 60px;
+} */
+
+#front h1 {
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#about-me {
+  background-color: beige;
+}
+
+/* 
+#about-me h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+} */
+
+#skills {
+  background-color: #666;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+}
+
+#education {
+  background-color: #ffffff;
+  color: black;
+}
+
+#education ul {
+  display: block;
+}
+
+#education .list-header {
+  background-color: lightgrey;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+#projects {
+  background-color: #666;
+  color: white;
+}
+
+#projects>a {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#follow-me {
+  background-color: #ffffff;
+}
+
+#follow-me>a {
+  padding-left: 20px;
+}
