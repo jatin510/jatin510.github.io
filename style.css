@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 
 a {
@@ -11,6 +10,7 @@ a {
 }
 
 h1 {
+  font-size: 30pt;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 30px;
@@ -28,8 +28,9 @@ p {
 }
 
 nav {
+  overflow-x: hidden;
   position: sticky;
-  top: 2px;
+  top: 0px;
 }
 
 nav ul li {
@@ -61,24 +62,33 @@ nav {
   height: 400px;
   background-color: #666;
   color: #ffffff;
+  width: 100%;
+}
+
+#name {
+  width: 35%;
+  height: 99%;
+  margin-right: 0;
+  display: inline-block;
 }
 
 #image {
-  height: 150px;
-  border-radius: 50%;
-  margin-left: 50%;
+  width: 64%;
+  height: 99%;
+  display: inline-block;
 }
-
-/* 
-#front:nth-child(n) {
-  padding-top: 80px;
-  padding-left: 60px;
-} */
+#image > img {
+  padding: 60px;
+  margin-left: 320px;
+  display: inline;
+  border-radius: 50%;
+  height: 150px;
+  padding-top: 140px;
+}
 
 #front h1 {
   color: black;
   font-size: 40pt;
-  text-align: left;
   margin-left: 80px;
   padding-top: 40px;
 }
@@ -90,13 +100,6 @@ nav {
 #about-me {
   background-color: beige;
 }
-
-/* 
-#about-me h1 {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-} */
 
 #skills {
   background-color: #666;
@@ -112,10 +115,22 @@ nav {
 
 #education ul {
   display: block;
+  padding: 20px;
+}
+
+#education > ul > li {
+  border: 1px solid black;
+  background-color: rgb(255, 250, 250);
+  list-style-type: none;
+  padding: 10px;
+  color: black;
+  font-size: 14pt;
 }
 
 #education .list-header {
-  background-color: lightgrey;
+  background-color: #666;
+  color: white;
+  font-size: 16pt;
   padding: 10px;
   font-weight: bolder;
 }
