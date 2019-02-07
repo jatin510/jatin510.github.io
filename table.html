@@ -1,682 +1,299 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        * {
+            padding: 0;
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .brown {
+            background-color: lightcoral;
+        }
+
+        .blue {
+            background-color: lightseagreen;
+        }
+
+        .pink {
+            background-color: bisque;
+        }
+    </style>
 </head>
 
 <body>
+    <h1>
+        Class Timings of CSE II, IV, VI & VIII Semester
+    </h1>
 
-    <table border="1" cellpadding="1">
-        <tr>
-            <td>Days</td>
+    <table border="1" cellspacing="0">
+        <tr style="background-color: lightgray">
+            <td style="background-color: white">Days</td>
             <td>Sem</td>
             <td>1(9:15 to 10:15)</td>
             <td>2(10:15 to 11:15)</td>
             <td>3(11:15 to 12:15)</td>
-            <td>4(12:15 to 1:15)</td>
+            <td>5(12:15 to 1:15</td>
             <td> </td>
             <td>5(2:00 to 3:00)</td>
             <td>6(3:00 to 4:00)</td>
             <td>7(4:00 to 5:00)</td>
         </tr>
-        <tr>
+        <tr class="green">
             <!-- 1 -->
-            <td rowspan="12">M <br>o <br> n <br> d <br> a <br> y</td>
+            <td rowspan="12" style="background-color: white">M <br> O <br> N <br> D <br> A <br> Y <br></td>
             <td rowspan="3">II</td>
             <td>ITP</td>
             <td>EVS</td>
-            <td colspan="2">ED LAB</td>
+            <td colspan="2">ED Lab(G1)/Physics Lab(G2)</td>
             <td rowspan="12"></td>
             <td>A.Math</td>
             <td>A.Math</td>
             <td>Lib/Sports</td>
         </tr>
-        <tr>
+        <tr class="green">
             <!-- 2 -->
-            <!-- <td rowspan="3">IV</td> -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>Mr. Sushil Kumar</td>
+            <td>Ms. Archana Tomer</td>
+            <td colspan="2">Mr. Abdul R./ Mr. Bhuvnesh </td>
+            <td>Sandeep Mittal</td>
+            <td>Sandeep Mittal</td>
+            <td></td>
         </tr>
-        <tr>
+
+        <tr class="green">
             <!-- 3 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>201</td>
+            <td>201</td>
+            <td colspan="2">ED Room/Physics Lab</td>
+            <td>201</td>
+            <td>201</td>
+            <td></td>
         </tr>
-        <tr>
+        <tr class="brown">
             <!-- 4 -->
             <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>CS</td>
+            <td>OOPS</td>
+            <td colspan="2">DBMS Lab(G1)/OOPS Lab(G2)</td>
+            <td>TOC</td>
+            <td>COA</td>
+            <td>DBMS</td>
         </tr>
-        <tr>
+        <tr class="brown">
             <!-- 5 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>Mr. Deepak Sant</td>
+            <td>Mr. Jatin Verma</td>
+            <td colspan="2">Dr.Anu/ Mr.Jatin</td>
+            <td>Mr. Kundan Kumar</td>
+            <td>Mrs. Jyoti Triphati</td>
+            <td>Dr. Mamta</td>
         </tr>
-        <tr>
+
+        <tr class="brown">
             <!-- 6 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>304</td>
+            <td>304</td>
+            <td colspan="2">Lab-1/Lab-2</td>
+            <td>304</td>
+            <td>304</td>
+            <td>304</td>
         </tr>
-        <tr>
+        <tr class="blue">
             <!-- 7 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td rowspan="3">VI</td>
+            <td>CD</td>
+            <td>OS</td>
+            <td>AI</td>
+            <td>AI</td>
+            <td>CN</td>
+            <td>MP</td>
+            <td rowspan="3">Lib/Sports</td>
         </tr>
-        <tr>
+        <tr class="blue">
             <!-- 8 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>Ms. Sunita Tiwari</td>
+            <td>Ms. Sunita Kumari</td>
+            <td>Ms. Sunita Tiwari</td>
+            <td>Ms. Sunita Tiwari</td>
+            <td>Mr. Jatin</td>
+            <td>Ms. Aman Saini</td>
         </tr>
-        <tr>
+        <tr class="blue">
             <!-- 9 -->
-
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>303 </td>
+            <td>303 </td>
+            <td>303 </td>
+            <td>303 </td>
+            <td>303</td>
+            <td>303</td>
         </tr>
-        <tr>
+
+        <tr class="pink">
             <!-- 10 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td rowspan="3">VIII</td>
+            <td colspan="2">NS LAB(G1)</td>
+            <td colspan=2>NS/ERP/SC</td>
+            <td colspan=2>AI Lab(G1)/ST Lab(G2)</td>
+            <td> </td>
         </tr>
-        <tr>
+
+        <tr class="pink">
             <!-- 11 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td colspan="2">Mr. Kundan Kumar</td>
+            <td colspan=2>Mr. Kundan Kumar/Mr. Manjeet/Ms. Jyoti</td>
+            <td colspan=2>Dr. Anu Saini/Dr. Mamta Mittal</td>
+            <td> </td>
         </tr>
-        <tr>
+
+        <tr class="pink">
             <!-- 12 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td colspan="2">Lab 1/Lab 2</td>
+            <td colspan=2>304/201/203</td>
+            <td colspan=2>Lab 1/Lab 2</td>
+            <td> </td>
         </tr>
 
 
+        <!-- TUESDAY -->
 
-        <!-- TUESDAY  -->
 
-
-        <tr>
+        <tr class="green">
             <!-- 1 -->
-            <td rowspan="12">T <br>U <br> E <br> S <br> D <br> A <br>Y</td>
-            <td rowspan="3">II</td>
+            <td rowspan="12" style="background-color: white">T <br> U <br> E <br> S <br> D <br> A <br> Y <br></td>
+            <td rowspan="
+                3">II</td>
+            <td>Lib/Sports</td>
+            <td>A. Math</td>
+            <td>A.Math</td>
             <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
             <td rowspan="12"></td>
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>A. Physics</td>
+            <td colspan="2">EVS Lab(G1)/ED Lab(G2)</td>
         </tr>
-        <tr>
+        <tr class="green">
             <!-- 2 -->
-            <!-- <td rowspan="3">IV</td> -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td></td>
+            <td>Mr.Sandeep Mittal</td>
+            <td>Mr.Sandeep Mittal </td>
+            <td>Mr.Sushil Kumar</td>
+            <td>Mr.Bhuvesh</td>
+            <td colspan="2">Ms. Archna Tomer/Mr. Abdul R.</td>
         </tr>
+
         <tr>
             <!-- 3 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td class="green"></td>
+            <td class="green">201</td>
+            <td class="green">201</td>
+            <td class="green">201</td>
+            <td class="green">201</td>
+            <td class="green">201</td>
+            <td class="green">Chemistry Lab/ED Room</td>
         </tr>
-        <tr>
+        <tr class="brown">
             <!-- 4 -->
             <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>TOC</td>
+            <td>COA</td>
+            <td colspan="2">DBMS Lab(G2)/OOPS Lab(G1)</td>
+            <td>CS</td>
+            <td>CS</td>
+            <td>Math</td>
         </tr>
-        <tr>
+        <tr class="brown">
             <!-- 5 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>Mr. Kundan Kumar t</td>
+            <td>Ms. Jyoti Triphati</td>
+            <td colspan="2">Dr. Mamta/ Mr. Jatin Verma</td>
+            <td>Mr. Deepak Sant</td>
+            <td>Mr. Deepak Sant</td>
+            <td>X</td>
         </tr>
-        <tr>
+
+        <tr class="brown">
             <!-- 6 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>304</td>
+            <td>304</td>
+            <td colspan="2">Lab-1/Lab-2</td>
+            <td>304</td>
+            <td>304</td>
+            <td>304</td>
         </tr>
-        <tr>
+        <tr class="blue">
             <!-- 7 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td rowspan="3">VI</td>
+            <td colspan="2">CN Lab(G2)/OS Lab(g1)</td>
+            <td>WE</td>
+            <td>MP</td>
+            <td>CN</td>
+            <td>OS</td>
+            <td></td>
         </tr>
-        <tr>
+        <tr class="blue">
             <!-- 8 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td colspan="2">Dr. Manisha Manjul/Ms. Sunita Kumari</td>
+            <td>Mr. Manjeet </td>
+            <td>Ms. Aman Saini</td>
+            <td>Mr. Jatin</td>
+            <td>Ms. Sunita Kumari</td>
+            <td></td>
         </tr>
-        <tr>
+        <tr class="blue">
             <!-- 9 -->
-
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td colspan="2">Lab-3/Lab-2 </td>
+            <td>304 </td>
+            <td>304 </td>
+            <td>304 </td>
+            <td>304</td>
+            <td></td>
         </tr>
-        <tr>
+
+        <tr class="pink">
             <!-- 10 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td rowspan="3">VIII</td>
+            <td>ST</td>
+            <td>ST</td>
+            <td>AI</td>
+            <td>AI</td>
+            <td colspan=2>ERP Lab (G2)/ SC Lab(G3)</td>
+            <td> </td>
         </tr>
-        <tr>
+
+        <tr class="pink">
             <!-- 11 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>Dr. Mamta </td>
+            <td>Dr. Mamta </td>
+            <td>Ms. Sunita Tiwari</td>
+            <td>Ms. Sunita Tiwari</td>
+            <td colspan=2>Mr. Sushil/ Ms. Jyoti& Ms. Sunita</td>
+            <td> </td>
         </tr>
-        <tr>
+
+        <tr class="pink">
             <!-- 12 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
+            <td>303</td>
+            <td>303</td>
+            <td>303</td>
+            <td>303</td>
+            <td colspan=2>Lab 1/Lab 2</td>
+            <td> </td>
         </tr>
-
-
-        <!-- WEDNESDAY -->
-
-        <tr>
-            <!-- 1 -->
-            <td rowspan="12">W <br>E <br> D <br> N <br> E <br> S <br>D <br>A <br> Y</td>
-            <td rowspan="3">II</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <td rowspan="12"></td>
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 2 -->
-            <!-- <td rowspan="3">IV</td> -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 3 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 4 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 5 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 6 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 7 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 8 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 9 -->
-
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 10 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 11 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 12 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-
-        <!-- THURSDAY -->
-
-        <tr>
-            <!-- 1 -->
-            <td rowspan="12">T <br>H<br> U <br> R <br> S <br> D <br> A <br> Y</td>
-            <td rowspan="3">II</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <td rowspan="12"></td>
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 2 -->
-            <!-- <td rowspan="3">IV</td> -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 3 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 4 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 5 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 6 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 7 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 8 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 9 -->
-
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 10 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 11 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 12 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-
-        <!-- FRIDAY -->
-
-        <tr>
-            <!-- 1 -->
-            <td rowspan="12">F <br>R <br> I <br> D <br> A <br> Y</td>
-            <td rowspan="3">II</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <td rowspan="12"></td>
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 2 -->
-            <!-- <td rowspan="3">IV</td> -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 3 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 4 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 5 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 6 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 7 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 8 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 9 -->
-
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 10 -->
-            <td rowspan="3">IV</td>
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 11 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-        <tr>
-            <!-- 12 -->
-            <td>ITP</td>
-            <td>EVS</td>
-            <td colspan="2">ED LAB</td>
-            <!-- <td rowspan="12"></td> -->
-            <td>A.Math</td>
-            <td>A.Math</td>
-            <td>Lib/Sports</td>
-        </tr>
-
-
     </table>
+
+
 </body>
 
 </html>
