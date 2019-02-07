@@ -31,13 +31,13 @@ nav {
   overflow-x: hidden;
   position: sticky;
   top: 0px;
-  height: 65px;
+  height: 71px;
   background-color: black;
 }
 
 nav ul li {
   display: inline;
-  padding: 26px;
+  padding: 29px;
 }
 
 nav ul li a {
@@ -47,7 +47,7 @@ nav ul li a {
 nav ul {
   display: block;
   padding: 20px;
-  padding-left: 600px;
+  padding-left: 558px;
   width: 100%;
 }
 
