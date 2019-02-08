@@ -63,24 +63,23 @@ nav ul li:hover {
 }
 
 #name {
-  width: 35%;
-  height: 99%;
-  margin-right: 0;
+  width: 43%;
+  height: 100%;
   display: inline-block;
 }
 
 #image {
-  width: 64%;
+  width: 56%;
   height: 99%;
   display: inline-block;
 }
 #image > img {
   padding: 60px;
-  margin-left: 320px;
+  margin-left: 300px;
+  margin-top: 20px;
   display: inline;
   border-radius: 50%;
-  height: 150px;
-  padding-top: 140px;
+  height: 200px;
 }
 
 #front h1 {
@@ -89,13 +88,13 @@ nav ul li:hover {
   margin-left: 80px;
   padding-top: 40px;
 }
-#front h2 {
+#name h2 {
   text-align: left;
-  margin-left: 60px;
+  margin-left: 280px;
 }
 
 #about-me {
-  background-color: beige;
+  background-color: white;
 }
 
 #skills {
