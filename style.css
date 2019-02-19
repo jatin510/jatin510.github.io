@@ -66,6 +66,7 @@ nav ul li:hover {
   width: 43%;
   height: 100%;
   display: inline-block;
+  float: left;
 }
 
 #image {
@@ -73,6 +74,7 @@ nav ul li:hover {
   height: 99%;
   display: inline-block;
 }
+
 #image > img {
   padding: 60px;
   margin-left: 300px;
@@ -86,8 +88,9 @@ nav ul li:hover {
   color: black;
   font-size: 40pt;
   margin-left: 80px;
-  padding-top: 40px;
+  padding-top: 120px;
 }
+
 #name h2 {
   text-align: left;
   margin-left: 280px;
