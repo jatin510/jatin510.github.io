@@ -13,7 +13,8 @@ h1 {
   font-size: 30pt;
   text-align: center;
   padding-top: 80px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
+  font-family: "PT Sans", sans-serif;
 }
 
 h2 {
@@ -25,6 +26,7 @@ p {
   margin-right: 2%;
   font-family: "Courier New", Courier, monospace;
   padding-bottom: 40px;
+  font-size: 17pt;
 }
 
 nav {
@@ -32,12 +34,13 @@ nav {
   position: sticky;
   top: 0px;
   height: 71px;
-  background-color: black;
+  background-color: #045881;
 }
 
 nav ul li {
   display: inline;
   padding: 29px;
+  font-family: "Oswald", sans-serif;
 }
 
 nav ul li a {
@@ -51,13 +54,15 @@ nav ul {
   width: 100%;
 }
 
-nav ul li:hover {
-  background-color: rgb(87, 83, 83);
+nav ul li a:hover {
+  /* background-color: rgb(87, 83, 83); */
+  color: orange;
+  font-weight: bold;
 }
 
 #front {
   height: 400px;
-  background-color: #666;
+  background-color: #2a99cf;
   color: #ffffff;
   width: 100%;
 }
@@ -77,11 +82,11 @@ nav ul li:hover {
 
 #image > img {
   padding: 60px;
-  margin-left: 300px;
+  margin-left: 270px;
   margin-top: 20px;
   display: inline;
   border-radius: 50%;
-  height: 200px;
+  height: 230px;
 }
 
 #front h1 {
@@ -101,7 +106,7 @@ nav ul li:hover {
 }
 
 #skills {
-  background-color: #666;
+  background-color: #2a99cf;
   padding-left: 2%;
   padding-right: 2%;
   color: white;
@@ -127,7 +132,7 @@ nav ul li:hover {
 }
 
 #education .list-header {
-  background-color: #666;
+  background-color: #2a99cf;
   color: white;
   font-size: 16pt;
   padding: 10px;
@@ -135,7 +140,7 @@ nav ul li:hover {
 }
 
 #projects {
-  background-color: #666;
+  background-color: #2a99cf;
   color: white;
 }
 
