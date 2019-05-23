@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  font-family: "Cabin", sans-serif;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left {
+  width: 22%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.left h2 {
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Exo", sans-serif;
+  margin: 60px 0 70px 0px;
+}
+.follow a {
+  font-size: 30px;
+  margin: 0 5px 0 5px;
+}
+.follow h3 {
+  margin-top: 80px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.menu a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 22px;
+}
+.image img {
+  border-radius: 50%;
+}
+.right {
+  width: 77%;
+  position: absolute;
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+#about p {
+  color: gray;
+  margin: 100px 0 20px 0;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#about h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Exo", sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  font-size: 36px;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.ul {
+  text-align: center;
+}
+
+#education h4,
+#hobbies h4 {
+  font-size: 18px;
+  margin: 15px 0 15px 0;
+  color: #666666;
+}
+td {
+  padding: 3px 100px 3px 100px;
+}
+td i {
+  font-size: 8px;
+  margin: 0 5px 0 5px;
+}
+.grayed {
+  color: gray;
+}
+
+.image {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.proj {
+  padding: 0 100px 50px 150px;
+}
+.proj h1 {
+  font-size: 24px;
+}
+
+#contact {
+  position: relative;
+  top: 20px;
+  border-top: 4px solid #00ccff;
+  color: white;
+  background: black;
+  text-align: center;
+}
+#contact p {
+  margin-top: 20px;
+  margin-top: 20px;
+}
+a {
+  color: #00ccff;
+}
+.menu a:hover {
+  color: #00ccff;
+  text-decoration: none;
+}
+
+.top {
+  margin-top: -10px;
+  background: black;
+}
+.top p {
+  font-family: "Nunito", sans-serif;
+  color: #00ccff;
+  float: right;
+  margin-right: 20px;
+  font-size: 24px;
+}
