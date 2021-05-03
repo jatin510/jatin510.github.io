@@ -3,6 +3,7 @@ import Footer from "../components/footer.component";
 import Header from "../components/header.component";
 import Nav from "../components/nav.component";
 import Projects from "../components/projects.component";
+import Contact from "../components/contact.component";
 
 export default function Home(props) {
   useEffect(() => {
@@ -58,6 +59,7 @@ export default function Home(props) {
       <Nav />
       <Header />
       <Projects />
+      <Contact />
       <Footer />
     </>
 

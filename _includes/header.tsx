@@ -27,7 +27,7 @@ export const _Header: React.FC<_HeaderProps> = ({}) => {
 
   return (
     <Header className="header">
-      <Image width={50} src="images/logo.png" />
+      <Image width={50} src="" />
       <Menu
         theme="light"
         mode="horizontal"
