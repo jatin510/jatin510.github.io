@@ -4,6 +4,7 @@ import Header from "../components/header.component";
 import Nav from "../components/nav.component";
 import Projects from "../components/projects.component";
 import Contact from "../components/contact.component";
+import About from "../components/about.component";
 
 export default function Home(props) {
   useEffect(() => {
@@ -58,6 +59,7 @@ export default function Home(props) {
     <>
       <Nav />
       <Header />
+      <About />
       <Projects />
       <Contact />
       <Footer />
