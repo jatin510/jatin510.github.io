@@ -1,7 +1,6 @@
 import Project from "./project.component";
 
-const PROJECTS = [
-];
+const PROJECTS = [];
 
 /***********************
   Projects Component
@@ -21,9 +20,8 @@ const Projects = (props) => {
           <h3 className="title">My Works</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of most of the projects I've worked on lately. Some of
-            them are video tutorials because I wanna share all the skills I have
-            to the world.
+            Here's a list of most of the projects I've worked on lately. Please,
+            also visit my github account :<a>https://github.com/jatin510</a>
           </p>
         </div>
         <div className="projects-wrapper">
