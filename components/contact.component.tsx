@@ -1,5 +1,5 @@
 import SocialLinks from "./social.component";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 /***********************
   Contact Component
@@ -9,7 +9,7 @@ const Contact = (props) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [Submit, setSubmit] = useState(false);
+  const [submit, setSubmit] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -29,13 +29,8 @@ const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("sending");
-
-    const data = {
-      ...form,
-    };
-
-    console.log(data);
+    console.log("sending....");
+    const data = form;
     fetch("/api/contact", {
       method: "POST",
       headers: {
@@ -43,16 +38,21 @@ const Contact = (props) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Response received");
-      if (res.status === 200) {
-        console.log("Response succeeded!");
-        setSubmit(true);
+    })
+      .then((res) => {
+        console.log("Response received");
+        if (res.status === 200) {
+          console.log("Response succeeded!");
+        }
+      })
+      .catch((err) => console.log("error in fetch ", err))
+      .finally(() => {
+        console.log("finally");
         setName("");
         setEmail("");
         setMessage("");
-      }
-    });
+        setSubmit(false);
+      });
   };
 
   return (

@@ -50,9 +50,10 @@ const Header = (props) => {
             Hey! I’m <b>Jagdish</b>
           </h1>
           <p>
-            I am a <strong>Web Developer</strong> based in Uttarakhand, India. I really enjoy solving problems as well as
-            making things pretty, clean and easy to use. I can't stop learning
-            new things; the more, the better. 
+            I am a <strong>Web Developer</strong> based in Uttarakhand, India. I
+            really enjoy solving problems as well as making things pretty, clean
+            and easy to use. I can't stop learning new things; the more, the
+            better.
           </p>
 
           <List

@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://jatin510.github.io",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npx kill-port 3000 && next dev",
     "build": "next build",
     "start": "next start",
     "export": "next export && touch out/.nojekyll",
