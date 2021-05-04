@@ -19,7 +19,7 @@ export default async function (req, res) {
     });
 
     const mailData = {
-      form: req.body.email,
+      form: EMAIL_USERNAME,
       to: EMAIL_USERNAME,
       subject: `Message from ${req.body.name}`,
       text: req.body.message,
