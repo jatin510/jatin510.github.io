@@ -33,28 +33,12 @@ const About = (props) => {
               make the web pretty by using Sass, CSS and, whenever needed, any
               of their friends: Bootstrap, etc. */}
               I am a the Software Developer , currently working for the US-based
-              firm, remotely. I usually work in the backend Part. or the
-              back-end I usually work in Nodejs and little bit of Python. .I
-              create API in nodejs , for the database I usually work on NoSQL
+              firm, remotely. I primarily works on back-end, work in Nodejs and
+              little bit of Python. For the database I usually work on NoSQL
               database such MongoDB.
             </p>
             <p>For the front-end I usually work in the ReactJS.</p>
           </div>
-          {/* <div className="desc">
-            <h4 className="subtitle">Also a designer.</h4>
-            <p>
-              I feel comfortable working with many Adobe products. Photoshop,
-              Illustrator, InDesign, Lightroom or Xd are some kind of industry
-              standards and I love working with them. I'm not limited to them,
-              though: Gimp, Inkscape or Figma are also very valid applications
-              that I've been working with.
-            </p>
-            <p>
-              User interfaces, brochures, books, branding... You name it! As I
-              mentioned, creating pretty things is particularly important for
-              me.
-            </p>
-          </div> */}
         </article>
       </div>
     </section>

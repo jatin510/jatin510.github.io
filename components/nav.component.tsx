@@ -10,9 +10,9 @@ const Nav = (props) => {
   const router = useRouter();
   const menu = [
     {
-      title: "Home",
-      url: "/",
-      section: "navbar",
+      title: "Resume",
+      url: "/resume",
+      section: "resume",
     },
     // {
     //   title: "Blog",
@@ -30,11 +30,10 @@ const Nav = (props) => {
       <nav id="navbar">
         <div className="nav-wrapper">
           <p className="brand">
-           
             <strong>Jagdish</strong>
           </p>
 
-          {/* <Menu
+          <Menu
             theme="light"
             mode="horizontal"
             // defaultSelectedKeys={["1"]}
@@ -51,7 +50,7 @@ const Nav = (props) => {
                 <Link href={item.url}>{item.title}</Link>
               </Menu.Item>
             ))}
-          </Menu> */}
+          </Menu>
         </div>
       </nav>
     </>
