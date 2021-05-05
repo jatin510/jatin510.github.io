@@ -6,7 +6,7 @@ import ControlPanel from "../../components/resume/controlPanel.component";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function Resume() {
-  const [scale, setScale] = useState(1.0);
+  const [scale, setScale] = useState(1.7);
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
   const [isLoading, setIsLoading] = useState(true);
