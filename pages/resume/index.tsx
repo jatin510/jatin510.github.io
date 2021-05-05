@@ -5,7 +5,7 @@ import ControlPanel from "../../components/resume/controlPanel.component";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-export default function Resume() {
+const Resume = () => {
   const [scale, setScale] = useState(1.7);
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -17,13 +17,12 @@ export default function Resume() {
   }
 
   return (
-    <div>
+    <div className="resume-container">
       <Loader isLoading={isLoading} />
       <section
         id="pdf-section"
         className="d-flex flex-column align-items-center w-100"
       >
-        {" "}
         <ControlPanel
           scale={scale}
           setScale={setScale}
@@ -43,4 +42,6 @@ export default function Resume() {
       </section>
     </div>
   );
-}
+};
+
+export default Resume;
