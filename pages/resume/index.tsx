@@ -14,8 +14,6 @@ export default function Resume() {
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
     setIsLoading(false);
-    console.log("onDocumentSuccess");
-    console.log(isLoading);
   }
 
   return (
