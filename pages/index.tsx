@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../components/footer.component";
 import Header from "../components/header.component";
 import Nav from "../components/nav.component";

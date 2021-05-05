@@ -32,10 +32,10 @@ const About = (props) => {
               standalone or including popular frameworks like ReactJS . I also
               make the web pretty by using Sass, CSS and, whenever needed, any
               of their friends: Bootstrap, etc. */}
-              I am a the Software Developer , currently working for the US-based
+              I am a Software Developer, currently working for the US-based
               firm, remotely. I primarily works on back-end, work in Nodejs and
-              little bit of Python. For the database I usually work on NoSQL
-              database such MongoDB.
+              little bit of Python. I usually work on NoSQL databases such
+              MongoDB.
             </p>
             <p>For the front-end I usually work in the ReactJS.</p>
           </div>

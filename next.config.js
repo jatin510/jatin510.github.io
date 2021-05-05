@@ -10,7 +10,7 @@ if (typeof require !== "undefined") {
 }
 
 module.exports = withCSS({
-  target: 'serverless',
+  target: "serverless",
   exportPathMap: () => ({
     "/": {
       page: "/",
@@ -22,9 +22,7 @@ module.exports = withCSS({
     importLoaders: 1,
     localIdentName: "[local]___[hash:base64:5]",
   },
-  webpack: (config, {
-    dev
-  }) => {
+  webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     config.module.rules = config.module.rules.map((rule) => {
       if (rule.loader === "babel-loader") {
@@ -35,6 +33,28 @@ module.exports = withCSS({
 
     return config;
   },
+
+  headers: () => {
+    return [
+      {
+        // matching all API routes
+        source: "/api/:path*",
+        headers: [
+          { key: "Access-Control-Allow-Credentials", value: "true" },
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          {
+            key: "Access-Control-Allow-Methods",
+            value: "GET,OPTIONS,PATCH,DELETE,POST,PUT",
+          },
+          {
+            key: "Access-Control-Allow-Headers",
+            value: "*",
+          },
+        ],
+      },
+    ];
+  },
+
   ...withLess(
     withSass({
       lessLoaderOptions: {
