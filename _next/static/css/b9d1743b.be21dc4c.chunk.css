@@ -25647,6 +25647,9 @@ footer .wrapper {
   padding: 18vh 0 2vh;
   text-align: center;
 }
+.resume-container {
+  background-color: #AEB6BF;
+}
 #loader {
   z-index: 1;
   position: fixed;
