@@ -13,7 +13,7 @@ export default function (req, res) {
     secure: false, // true for 465, false for other ports
     auth: {
       user: EMAIL_USERNAME,
-      password: EMAIL_PASSWORD,
+      pass: EMAIL_PASSWORD,
     },
   });
 
@@ -22,16 +22,35 @@ export default function (req, res) {
     to: EMAIL_USERNAME,
     subject: `Message from ${req.body.name}`,
     text: req.body.message,
-    html: <div>{req.body.message}</div>,
+    html: `<div>${req.body.message}</div>`,
   };
 
   transporter.sendMail(mailData, (error, data) => {
     if (error) {
-      console.log(error);
+      console.log("error sending mail", error);
       res.status(500).json({ success: false });
     } else {
-      console.log(data);
       res.status(200).json({ success: true });
     }
   });
+
+  // send response mail
+
+  const responseMessage = `
+  Hi,
+  <br/>  <br/>
+  Thank's for contacting me. 
+  <br/>  <br/>
+  Regards,
+  <br/>  
+  Jagdish Parihar
+  `;
+  const responseMailData = {
+    form: EMAIL_USERNAME,
+    to: req.body.email,
+    subject: `Thank You for contacting me!`,
+    text: responseMessage,
+    html: `<div>${responseMessage}</div>`,
+  };
+  transporter.sendMail(responseMailData, (err, data) => {});
 }
