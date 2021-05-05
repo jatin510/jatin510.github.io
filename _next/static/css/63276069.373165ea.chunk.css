@@ -5691,8 +5691,9 @@ a.ant-btn-sm {
 .ant-picker-input > input-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-picker-input > input-disabled:hover {
   border-color: #d9d9d9;
@@ -5701,8 +5702,9 @@ a.ant-btn-sm {
 .ant-picker-input > input[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-picker-input > input[disabled]:hover {
   border-color: #d9d9d9;
@@ -13741,8 +13743,9 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-input-affix-wrapper-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input-affix-wrapper-disabled:hover {
   border-color: #d9d9d9;
@@ -13751,8 +13754,9 @@ _:-ms-fullscreen .ant-picker-range-wrapper .ant-picker-year-panel .ant-picker-ce
 .ant-input-affix-wrapper[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input-affix-wrapper[disabled]:hover {
   border-color: #d9d9d9;
@@ -13913,8 +13917,9 @@ textarea.ant-input-affix-wrapper {
 .ant-input-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input-disabled:hover {
   border-color: #d9d9d9;
@@ -13923,8 +13928,9 @@ textarea.ant-input-affix-wrapper {
 .ant-input[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input[disabled]:hover {
   border-color: #d9d9d9;
@@ -14458,8 +14464,9 @@ textarea.ant-input {
 .ant-input-number-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input-number-disabled:hover {
   border-color: #d9d9d9;
@@ -14468,8 +14475,9 @@ textarea.ant-input {
 .ant-input-number[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input-number[disabled]:hover {
   border-color: #d9d9d9;
@@ -14582,8 +14590,9 @@ textarea.ant-input-number {
 .ant-input-number-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-input-number-disabled:hover {
   border-color: #d9d9d9;
@@ -15201,8 +15210,9 @@ textarea.ant-input-number {
 .ant-mentions-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-mentions-disabled:hover {
   border-color: #d9d9d9;
@@ -15211,8 +15221,9 @@ textarea.ant-input-number {
 .ant-mentions[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-mentions[disabled]:hover {
   border-color: #d9d9d9;
@@ -15249,8 +15260,9 @@ textarea.ant-mentions {
 .ant-mentions-disabled > textarea {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-mentions-disabled > textarea:hover {
   border-color: #d9d9d9;
@@ -17237,8 +17249,9 @@ textarea.ant-mentions {
 .ant-pagination-options-quick-jumper input-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-pagination-options-quick-jumper input-disabled:hover {
   border-color: #d9d9d9;
@@ -17247,8 +17260,9 @@ textarea.ant-mentions {
 .ant-pagination-options-quick-jumper input[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
-  cursor: not-allowed;
   opacity: 1;
+  cursor: not-allowed;
+  color: lightgray;
 }
 .ant-pagination-options-quick-jumper input[disabled]:hover {
   border-color: #d9d9d9;
@@ -25632,5 +25646,34 @@ footer .wrapper {
   max-width: 1200px;
   padding: 18vh 0 2vh;
   text-align: center;
+}
+#loader {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(155, 155, 155, 0.7);
+}
+.clickable {
+  cursor: pointer;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.control-panel {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  width: fit-content;
+}
+.clickable {
+  cursor: pointer;
+}
+.disabled {
+  cursor: not-allowed;
+  color: lightgray;
 }
 
