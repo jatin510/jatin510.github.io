@@ -25199,8 +25199,8 @@ body {
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
+  background: #FAFAEA;
   z-index: 5;
-  background: #fafafa;
   background-attachment: fixed;
 }
 #about .wrapper {
