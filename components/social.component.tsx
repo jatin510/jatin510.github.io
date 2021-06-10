@@ -16,7 +16,7 @@ const SocialLinks = (props) => {
       </a>
       <a
         id="profile-link"
-        href="https://github.com/jatinp510"
+        href="https://github.com/jatin510"
         target="_blank"
         rel="noopener noreferrer"
         title="Link to author's GitHub Profile"
